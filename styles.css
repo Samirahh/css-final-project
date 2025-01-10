@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: url(./assets/background\ image\ -\ Praroz.JPG) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+body {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin: auto 30px;
+}
+
+#logo {
+    font-size: 2.2em;
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+.search-container input {
+    border: 1px solid orange;
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    width: 24vw;
+    height: 32px;
+}
+::placeholder {
+    color: #fff;
+}
+
+.search-container button {
+    background-color: orange;
+    border: none;
+    border-radius: 0 0 5px 0;
+    padding: 13px 24px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: orange;
+    margin: 3px 0;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 30px;
+    margin: auto 30px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+span {
+    color: orange;
+}
+
+.content p {
+     margin: 24px 0;
+     font-size: 16px;
+     
+}
+
+.join-btn {
+    padding: 10px 40px;
+    background-color: orange;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 320px;
+}
+.login-form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-form p {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+.login-form a {
+    color: orange;
+    text-decoration: none;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+   
+.login-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+ }
+ 
+ @media screen and (max-width: 768px) {
+    html {
+        background: url(./assets/background\ image\ -\ Praroz.JPG) no-repeat center;
+        background-size: cover;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .search-container {
+        display: none;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .navbar.active .nav-links {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+    .login-form {
+        margin-top: 40px;
+    }
+    }
+ 
