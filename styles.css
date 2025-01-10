@@ -22,7 +22,7 @@ body {
 
 #logo {
     font-size: 2.2em;
-    color: orangered;
+    color: orange;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,7 +52,7 @@ body {
     position: relative;
 }
 .search-container input {
-    border: 1px solid orangered;
+    border: 1px solid orange;
     padding: 20px;
     border-radius: 5px;
     background: transparent;
@@ -64,7 +64,7 @@ body {
 }
 
 .search-container button {
-    background-color: orangered;
+    background-color: orange;
     border: none;
     border-radius: 0 0 5px 0;
     padding: 13px 24px;
@@ -84,7 +84,7 @@ body {
 .menu-toggle span {
     height: 3px;
     width: 25px;
-    background-color: orangered;
+    background-color: orange;
     margin: 3px 0;
 }
 
@@ -102,7 +102,7 @@ h1 {
 }
 
 span {
-    color: orangered;
+    color: orange;
 }
 
 .content p {
@@ -113,7 +113,7 @@ span {
 
 .join-btn {
     padding: 10px 40px;
-    background-color: orangered;
+    background-color: orange;
     border: 0;
     text-transform: uppercase;
     border-radius: 5px;
@@ -133,7 +133,7 @@ span {
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    color: orangered;
+    color: orange;
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
@@ -143,7 +143,7 @@ span {
     width: 100%;
     border: none;
     background: transparent;
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid orange;
     padding: 10px 0;
     margin: 5px 0;
 }
@@ -151,7 +151,7 @@ span {
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: orangered;
+    background-color: orange;
     color: #fff;
     border: none;
     font-size: 14px;
@@ -167,7 +167,7 @@ span {
 }
 
 .login-form a {
-    color: orangered;
+    color: orange;
     text-decoration: none;
 }
 .icon {
